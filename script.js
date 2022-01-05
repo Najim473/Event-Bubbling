@@ -5,7 +5,7 @@ for(i = 0;i<items.length;i++){
    item.addEventListener('click',function(event){
       // console.log(this);
       console.log(event.target.parentNode);
-      // console.log(even);
+      // console.log(even.target);  As like this Event .
       event.target.parentNode.removeChild(event.target)
       // console.log(event.target);
    })
